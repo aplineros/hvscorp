@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>HVS - Horizontes de Vías y Señales - Productos</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <META NAME="robots" CONTENT="INDEX, FOLLOW">
+        <META NAME="description" CONTENT="">
+        <META name="Keywords" content="">
+        <link href="css/style.css" type="text/css" rel="stylesheet"/>
+        <link href="css/exo/stylesheet.css" type="text/css" rel="stylesheet"/>
+        <script src="js/jquery-1.10.1.min.js" type="text/javascript"></script>
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/jquery.cycle.all.js" type="text/javascript"></script>
+
+        <link rel="icon" type="image/png" href="images/tabicon.png">
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#top").load("top.html");
+                $("#bottom").load("bottom.html");
+                $('#cycle').cycle({
+                    fx: 'scrollUp' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+                });
+            });
+        </script>
+
+    </head>
+    <body>
+        <div id="main" class="center">
+            <div id="content" class="center">
+
+                <div id="top" class="center">
+
+                </div>
+                <div class="middle_holder_tech">
+                    <div class="center middle_tech">
+                        <div id="cycle" class="cycle">
+                            <img src="images/banner.png"/>
+                            <img src="images/banner2.png"/>
+                            <img src="images/banner9.png"/>
+                        </div>
+                        <div class="screw_ban" style="right: 55px;"></div>
+                        <div class="screw_ban" style="right: 562px;"></div>
+
+                        <div class="screw_index" style="left: 10px; bottom:7px;"></div>
+                        <div class="screw_index" style="right: 10px; bottom:7px;"></div>
+                        <div class="screw_index" style="left: 10px; top:7px;"></div>
+                        <div class="screw_index" style="right: 10px; top:7px;"></div>
+
+                        
+                        <div id="tech1">
+                            <blockquote class="h1">Todos nuestros equipos son de tecnología de punta</blockquote>
+                            <p class="txt_gen" id="maq1_txt">Ofrecemos una flotilla de máquinas hincadoras para la instalación mecanizada, rápida y eficiente de defensas tipo “Flex Beam”, con martillo hidráulico de precisión. Además, usamos materiales de alta reflectividad para garantizar una visión ópima las 24 horas del día.</p>
+                            <p class="txt_gen" id="maq2_txt">Para la ejecución de estos importantes proyectos y otros que están en nuestra cartera de proyectos por ejecutar, requerimos la utilización de maquinaria especializada y técnicamente compleja en las áreas de Demarcación y de Instalación de Defensas de acero galvanizado tipo Flex Beam. Camiones “Long Liner” para demarcadión de carreteras con pintura termoplástica de calidad y alto rendimiento.</p>
+                            <img id="maq1" src="images/maq1.jpg"/>
+                        </div>
+
+                        <div id="tech2">
+                            <img id="airport" src="images/airport.jpg"/>
+                            <div id="airport_sq"></div>
+                            <p class="txt_gen" id="airport_txt">Camión Termoplástico LONG LINER de 15 toneladas de peso SIN CARGA</p>
+                        </div>
+
+
+                        <div id="ensayos">
+                            <p class="h1">Ensayos de choques reales</p>
+
+                            <div id="videos_holder">
+                                <p class="txt_gen vid_name" style="left:60px;">Vehículo de carga</p>
+                                <p class="txt_gen vid_name" style="left:300px;">Automóvil liviano</p>
+                                <p class="txt_gen vid_name" style="left:550px;">Motorizado</p>
+                                <p class="txt_gen vid_name" style="left:800px;">Autobús</p>
+                                <iframe class="video" width="220" height="165" src="//www.youtube.com/embed/xqMHG7fth9o?rel=0" frameborder="0" allowfullscreen></iframe>
+                                <iframe class="video" width="220" height="165" src="//www.youtube.com/embed/oPFNuURsVrA?rel=0" frameborder="0" allowfullscreen></iframe>
+                                <iframe class="video" width="220" height="165" src="//www.youtube.com/embed/o8nj24YMpvI?rel=0" frameborder="0" allowfullscreen></iframe>
+                                <iframe class="video" width="220" height="165" src="//www.youtube.com/embed/LRANsQie6W0?rel=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                            <p class="txt_gen" id="videos_txt">Nuestros Sistemas de Defensa han sido probados con ensayos de choque reales en laboratorios europeos especializados y certificados. Cuentan con certificación de calidad bajo Normas UNA para componente y para su proceso de manufactura.</p>
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="bottom" class="center">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

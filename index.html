@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>HVS - Horizontes de Vías y Señales - Ingeniería de Tránsito</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <META NAME="robots" CONTENT="INDEX, FOLLOW">
+        <META NAME="description" CONTENT="">
+        <META name="Keywords" content="">
+        <link href="css/style.css" type="text/css" rel="stylesheet"/>
+        <link href="css/exo/stylesheet.css" type="text/css" rel="stylesheet"/>
+        <script src="js/jquery-1.10.1.min.js" type="text/javascript"></script>
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/jquery.cycle.all.js" type="text/javascript"></script>
+        <link rel="icon" type="image/png" href="images/tabicon.png">
+        <script type="text/javascript">
+            $(document).ready(function(){       
+                $("#top").load("top.html");
+                $("#bottom").load("bottom.html");
+                $('#cycle').cycle({
+                    fx: 'scrollUp' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+                });
+            });
+        </script>
+
+    </head>
+    <body>
+        <div id="main" class="center">
+            <div id="content" class="center">
+
+                <div id="top" class="center">
+
+                </div>
+                <div class="middle_holder">
+                    <div class="center middle">
+                        <div id="cycle" class="cycle">
+                            <img src="images/banner.png"/>
+                            <img src="images/banner2.png"/>
+                            <img src="images/banner9.png"/>
+                        </div>
+                        <div class="screw_ban" style="right: 55px;"></div>
+                        <div class="screw_ban" style="right: 562px;"></div>
+                        
+                        
+                        <div class="screw_index" style="left: 10px; bottom:7px;"></div>
+                        <div class="screw_index" style="right: 10px; bottom:7px;"></div>
+                        <div class="screw_index" style="left: 10px; top:7px;"></div>
+                        <div class="screw_index" style="right: 10px; top:7px;"></div>
+                        
+                        <div id="index_cntnt1">
+                            <div id="missing_info">
+                                <img id="flags" src="images/flags.png"/>
+                                <p id="intro_txt">COMPROMETIDOS con el desarrollo vial de la región, en Horizontes de Vías y Señales empleamos tecnología de punta para garantizar la calidad de nuestros productos y servicios. Trabajamos bajo estrictas normas de calidad y seguridad. Nuestros sistemas de contención están certificados bajo Norma Europea EN1317.</p>
+                                <p id="flags_txt">Exitosamente presentes en:</p>
+                            </div>
+                            <p id="indprod_txt">El mejor servicio de la región en:</p>
+                        </div>
+                        
+                        <div id="index_cntnt2">
+                            <div id="yellow_sq"></div>
+                            <img src="images/productos.png" style="position:absolute; left:33px; top:26px;"/>
+                            <a class="indprod" style="top:54px; left:35px;" href="productos.html#product1">DEMARCACIÓN PINTURA EN FRÍO</a>
+                            <a class="indprod" style="top:144px; left:272px;" href="productos.html#product2">DEMARCACIÓN TERMOPLÁSTICA</a>
+                            <a class="indprod" style="top:54px; left:510px;" href="productos.html#product3">SISTEMAS DE DEFENSA FLEX BEAM</a>
+                            <a class="indprod" style="top:144px; left:748px;" href="productos.html#product4">SEÑALAMIENTO VERTICAL</a>
+                        </div>
+                        
+                        <div id="index_cntnt3">
+                            <img src="images/duero_ind.png" style="position:absolute; right:100px; top:40px;"/>
+                            <img src="images/duero.png" style="position:absolute; left:170px; top:30px;"/>
+                            <p id="duero_txt">En alianza comercial con el sólido grupo empresarial español Industrias Duero, suministramos una amplia gama de productos con acero galvanizado para Centroamérica, Venezuela y Colombia.</p>
+                            <a id="duero_link" target="_blank" href="http://www.industriasduero.com">Más sobre Industrias Duero...</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="bottom" class="center">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

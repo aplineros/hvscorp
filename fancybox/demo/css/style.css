@@ -1,0 +1,451 @@
+.center{
+    margin: 0 auto;
+}
+
+.round{
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#content{
+    width: 100%;
+}   
+
+/*---------------------TOP BEGINS---------------------*/
+
+#top {
+    width: 100%;
+    height: 335px;
+    position: relative;
+    background: url(../images/header_bg.png) repeat-x;
+}
+
+#top_content {
+    width: 1000px;
+    height: 335px;
+    position: relative;
+}
+
+#logo{
+    position: absolute;
+    top: -53px;
+    left: 40px;
+}
+
+#banner_holder{
+    width: 560px;
+    height: 245px;
+    position: absolute;
+    top: 8px;
+    right: 50px;
+    background: url(../images/banner_bg.png) repeat-x;
+    border: 3px solid #00CA33;
+}
+
+#warning{
+    width: 560px;
+    height: 38px;
+    position: absolute;
+    bottom: -2px;
+    background: url(../images/warning.png) repeat-x;
+}
+
+#menu_holder{
+    width: 940px;
+    height: 76px;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+}
+
+#menu_left{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#menu_right{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#menu{
+    width: 845px;
+    height: 51px;
+    position: absolute;
+    left: 46px;
+    top: 15px;
+    background: url(../images/btn8.png) repeat-x;
+}
+
+#menu a:hover{
+    text-shadow: 0 0.1em 0.1em black;
+    background: url(../images/warning.png) repeat-x;
+}
+
+.menu_link{
+    width: 128.5px;
+    position: absolute;
+    top: 12px;
+    font-family: 'ExoDemiBold';
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0.1em 0.1em black;
+}
+
+.cycle{
+    position: absolute;
+    top: -315px;
+    right: 68px;
+}
+
+
+/*---------------------MENU LINKS---------------------*/
+
+.menu_hover img:hover{
+    margin-top: -44px;
+}
+
+
+
+
+/*---------------------INDEX CONTENT---------------------*/
+
+.middle_holder {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: url(../images/bg.png) repeat-x;
+}
+
+.middle{
+    width: 1000px;
+    height: 800px;
+    position: relative;
+    background: url(../images/middlebg.png) repeat-x;
+}
+
+#index_cntnt1{
+    width: 1000px;
+    height: 300px;
+    position: relative;
+}
+
+.missing_info{
+    width: 900px;
+    height: 210px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    background: grey;
+}
+
+#missing{
+    color: white;
+    font-family: 'ExoRegular';
+    text-align: center;
+    font-size: 25px;
+}
+
+#indprod_txt{
+    width: 430px;
+    height: 80px;
+    position: absolute;
+    bottom: -60px;
+    left: 80px;
+    font-family: 'ExoRegular';
+    font-size: 26px;
+    color: #FFFF00;
+    text-align: justify;
+    text-shadow: 0 0.1em 0.1em black;
+}
+
+#index_cntnt2{
+    width: 1000px;
+    height: 210px;
+    position: relative;
+    background: url(../images/light_strip.png);
+}
+
+#yellow_sq{
+    width: 970px;
+    height: 180px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    border: 1px solid #FEF34E;
+
+}
+
+.indprod{
+    width: 218px;
+    height: 25px;
+    position: absolute;
+    font-family: 'ExoDemiBoldItalic';
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+
+#index_cntnt3{
+    width: 1000px;
+    height: 290px;
+    position: relative;
+}
+
+#duero_txt{
+    width: 430px;
+    height: 80px;
+    position: absolute;
+    top: 135px;
+    left: 80px;
+    font-family: 'ExoLight';
+    color: #FEF34E;
+    text-align: justify;
+    text-shadow: 0 0.1em 0.1em black;
+}
+
+#duero_link{
+    position: absolute;
+    bottom: 40px;
+    left: 300px;
+    font-family: 'ExoLight';
+    color: white;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0 0.1em 0.1em black;
+}
+
+#duero_link:hover{
+    color: #FEF34E;
+}
+
+.screw_index{
+    width: 47px;
+    height: 48px;
+    position: absolute;
+    background: url(../images/screw.png) no-repeat;
+}
+
+.screw_ban{
+    width: 47px;
+    height: 48px;
+    position: absolute;
+    background: url(../images/screwb.png) no-repeat;
+    z-index: 100;
+    top:-135px;
+}
+
+/*---------------------FOOTER---------------------*/
+
+#bottom{
+    width: 100%;
+    height: 248px;
+    position: relative;
+    background: url(../images/footer_bg.png) repeat-x;
+}
+
+#footer{
+    width: 1000px;
+    height: 248px;
+    position: relative;
+}
+
+#footer_menu{
+    width: 126px;
+    height: 167px;
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    background: url(../images/footer_sign.png) no-repeat;
+}
+
+.menu_link_f{
+    width: 110px;
+    position: absolute;
+    left: 9px;
+    font-family: 'ExoDemiBold';
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0 0.1em 0.1em black;
+}
+
+#footer_menu a:hover{
+    color: yellow;
+}
+
+#road{
+    position: absolute;
+    left: 90px;
+    bottom: 0px;
+}
+
+#city{
+    position: absolute;
+    top: 11px;
+    left: 300px;
+}
+
+#bases_holder{
+    width: 760px;
+    height: 40px;
+    position: absolute;
+    top: 109px;
+    left: 320px;
+}
+
+.bridge_base{
+    width: 26px;
+    height: 39px;
+    position: absolute;
+    background: url(../images/bridge_base.png) no-repeat;
+}
+
+
+
+
+
+/*.footer_menu{
+    position: absolute;
+    width: 300px;
+    height: 140px;
+    top: 75px;
+    left: 150px;
+}
+
+.footer_title{
+    position: absolute;
+    color: white;
+    left: 5px;
+    font-size: 20px;
+    font-family: 'MothproofScriptRegular';
+    text-shadow: 0 0.1em 0.1em green;
+}
+
+.footer_hr{
+    position: absolute;
+    top: 28px;
+}
+
+.footer_device{
+    position: absolute;
+    top: 28px;
+    left: 200px;
+}
+
+.fb_icon{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 50px;
+    left: 15px;
+    overflow: hidden;
+}
+.fb_icon img:hover{
+    margin-top: -38px;
+}
+
+.tw_icon{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 50px;
+    left: 60px;
+    overflow: hidden;
+}
+.tw_icon img:hover{
+    margin-left: -38px;
+    margin-top: -38px;
+}
+
+.gg_icon{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    top: 50px;
+    left: 105px;
+    overflow: hidden;
+}
+.gg_icon img:hover{
+    margin-left: -76px;
+    margin-top: -38px;
+}
+
+.footer_link {
+    position: absolute;
+    top: 25px;
+    color: #4BBC45;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #4BBC45;
+}
+
+a:hover{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}*/
+
+.footer_bottomtxt{
+    position: absolute;
+    bottom: 6px;
+    left: 864px;
+    color: white;
+    font-size: 11px;
+    font-family: Helvetica;    
+    font-weight: bold;
+}
+
+
+
+/*---------------------FANCY BOX-----------------*/
+
+
+
+
+.fancybox img{
+    border: 4px solid #ccc;
+    float: left;
+    margin: 10px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+  
+.fancybox img:hover {
+    margin-top: 2px;
+}
+
+.gallery_holder{
+    width: 900px;
+    height: 210px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    background: grey;
+}

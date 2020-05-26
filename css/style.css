@@ -1,0 +1,790 @@
+.center{
+    margin: 0 auto;
+}
+
+.round{
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#content{
+    width: 100%;
+}   
+
+/*---------------------TOP BEGINS---------------------*/
+
+#top {
+    width: 100%;
+    height: 335px;
+    position: relative;
+    background: url(../images/header_bg.png) repeat-x;
+}
+
+#top_content {
+    width: 1000px;
+    height: 335px;
+    position: relative;
+}
+
+#logo{
+    position: absolute;
+    top: -53px;
+    left: 40px;
+}
+
+#banner_holder{
+    width: 560px;
+    height: 245px;
+    position: absolute;
+    top: 8px;
+    right: 50px;
+    background: url(../images/banner_bg.png) repeat-x;
+    border: 3px solid #00CA33;
+}
+
+#warning{
+    width: 560px;
+    height: 38px;
+    position: absolute;
+    bottom: -2px;
+    background: url(../images/warning.png) repeat-x;
+}
+
+#menu_holder{
+    width: 940px;
+    height: 76px;
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+}
+
+#menu_left{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#menu_right{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#menu{
+    width: 845px;
+    height: 51px;
+    position: absolute;
+    left: 46px;
+    top: 15px;
+    background: url(../images/btn8.png) repeat-x;
+}
+
+#menu a:hover{
+    text-shadow: 0 0.1em 0.1em black;
+    background: url(../images/warning.png) repeat-x;
+}
+
+.menu_link{
+    width: 128.5px;
+    position: absolute;
+    top: 12px;
+    font-family: 'ExoDemiBold';
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0.1em 0.1em black;
+}
+
+.cycle{
+    position: absolute;
+    top: -315px;
+    right: 68px;
+}
+
+
+/*---------------------MENU LINKS---------------------*/
+
+.menu_hover img:hover{
+    margin-top: -44px;
+}
+
+
+
+
+/*---------------------INDEX CONTENT---------------------*/
+
+.middle_holder {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: url(../images/bg.png) repeat-x;
+}
+
+.middle{
+    width: 1000px;
+    height: 800px;
+    position: relative;
+    background: url(../images/bgmiddle.png) repeat;
+}
+
+#index_cntnt1{
+    width: 1000px;
+    height: 300px;
+    position: relative;
+}
+
+#missing_info{
+    width: 840px;
+    height: 210px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    background: #3f4240;
+}
+
+#flags{
+    position: absolute;
+    right: 58px;
+    top: 75px;
+}
+
+#flags_txt{
+    top: 20px;
+    right: 70px;
+    position: absolute;
+    color: white;
+    font-family: 'ExoRegular';
+    text-align: right;
+    font-size: 18px;
+    text-shadow: 0 0.1em 0.1em black;
+}
+
+#intro_txt{
+    width: 400px;
+    height: 80px;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    font-family: 'ExoLight';
+    color: white;
+    text-align: justify;
+    text-shadow: 0 0.1em 0.1em black;
+}
+
+#indprod_txt{
+    width: 430px;
+    height: 80px;
+    position: absolute;
+    bottom: -60px;
+    left: 80px;
+    font-family: 'ExoRegular';
+    font-size: 26px;
+    color: #FFFF00;
+    text-align: justify;
+    text-shadow: 0 0.1em 0.1em black;
+}
+
+#index_cntnt2{
+    width: 1000px;
+    height: 210px;
+    position: relative;
+    background: url(../images/light_strip.png);
+}
+
+#yellow_sq{
+    width: 970px;
+    height: 180px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    border: 1px solid #FEF34E;
+
+}
+
+.indprod{
+    width: 218px;
+    height: 25px;
+    position: absolute;
+    font-family: 'ExoDemiBold';
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.indprod:hover{
+    color: #FEF34E;
+}
+
+#index_cntnt3{
+    width: 1000px;
+    height: 290px;
+    position: relative;
+}
+
+#duero_txt{
+    width: 430px;
+    height: 80px;
+    position: absolute;
+    top: 135px;
+    left: 80px;
+    font-family: 'ExoLight';
+    color: #FEF34E;
+    text-align: justify;
+    text-shadow: 0 0.1em 0.1em black;
+}
+
+#duero_link{
+    position: absolute;
+    bottom: 40px;
+    left: 300px;
+    font-family: 'ExoLight';
+    color: white;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0 0.1em 0.1em black;
+}
+
+#duero_link:hover{
+    color: #FEF34E;
+}
+
+.screw_index{
+    width: 47px;
+    height: 48px;
+    position: absolute;
+    background: url(../images/screw.png) no-repeat;
+}
+
+.screw_ban{
+    width: 47px;
+    height: 48px;
+    position: absolute;
+    background: url(../images/screwb.png) no-repeat;
+    z-index: 100;
+    top:-135px;
+}
+
+/*---------------------PRODUCT CONTENT---------------------*/
+
+/*#test{
+    text-shadow: 1px 1px 0px rgba(230,230,230,1),
+    2px 2px 0px rgba(200,200,200,1),
+    3px 3px 0px rgba(180,180,180,1),
+    4px 4px 0px rgba(160,160,160,1),
+    5px 5px 0px rgba(0,0,0,1),
+    8px 8px 20px rgba(0,0,0,0.5);
+    color: yellow;
+    font-size: 25px;
+    position: absolute;
+    top: 100px;
+    font-weight: bold;
+    left: 50px;
+}*/
+
+.middle_holder_prod {
+    width: 100%;
+    height: 1150px;
+    position: relative;
+    background: url(../images/prod_bg.png) repeat-x;
+}
+
+.middle_prod{
+    width: 1000px;
+    height: 1150px;
+    position: relative;
+    background: url(../images/bgmiddle.png) repeat;
+}
+
+.h1{
+    position: absolute;
+    left: 80px;
+    font-family: 'ExoRegular';
+    font-size: 25px;
+    color: #FFFF00;
+    text-align: justify;
+    text-shadow: 0 0.1em 0.1em black;
+}
+.txt_gen{
+    font-family: 'ExoLight';
+    color: white;
+    text-align: justify;
+    font-size: 15px;
+    text-shadow: 0 0.1em 0.1em black;
+}
+
+#product1{
+    width: 1000px;
+    height: 280px;
+    position: relative;
+}
+#prod1_txt{
+    width: 290px;
+    height: 180px;
+    position: absolute;
+    top: 60px;
+    left: 355px;
+}
+#prod11{
+    position: absolute;
+    top: 70px;
+    left: 75px;
+}
+#prod12{
+    position: absolute;
+    top: 70px;
+    right: 75px;
+}
+
+#product2{
+    width: 1000px;
+    height: 240px;
+    position: relative;
+}
+#prod2_txt{
+    width: 600px;
+    height: 180px;
+    position: absolute;
+    top: 50px;
+    left: 85px;
+}
+#prod2{
+    position: absolute;
+    top: 30px;
+    right: 75px;
+}
+
+#product3{
+    width: 1000px;
+    height: 285px;
+    position: relative;
+}
+#prod3_txt{
+    width: 290px;
+    height: 160px;
+    position: absolute;
+    top: 55px;
+    left: 355px;
+}
+#prod31{
+    position: absolute;
+    top: 70px;
+    left: 75px;
+}
+#prod32{
+    position: absolute;
+    top: 70px;
+    right: 75px;
+}
+#prod_video{
+    text-decoration: none; 
+    color: #FEF34E;
+}
+#prod_video:hover{
+    color:white;
+}
+
+#product4{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    float: left;
+}
+#prod4_txt{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 55px;
+    left: 85px;
+}
+#prod4{
+    position: absolute;
+    top: 75px;
+    left: 310px;
+}
+
+#product5{
+    width: 450px;
+    height: 300px;
+    position: relative;
+    float: right;
+}
+#prod5_txt{
+    position: absolute;
+    top: 55px;
+    left: 55px;
+}
+
+/*---------------------OBRAS---------------------*/
+
+.fancybox img{
+    border: 3px solid #ccc;
+    float: left;
+    margin: 8px;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+}
+
+.fancybox img:hover {
+    margin-top: 2px;
+}
+
+.gallery_holder{
+    width: 890px;
+    height: 180px;
+    position: absolute;
+    left: 70px;
+    /*    background: grey;*/
+}
+
+#obras_cntnt{
+    width: 1000px;
+    height: 480px;
+    position: relative;
+    /*    background: url(../images/light_strip.png);*/
+}
+
+.pais{
+    position:absolute;
+    top: 10px;
+}
+
+.divider_stripes{
+    width: 20px;
+    height: 375px;
+    top: 45px;
+    position: absolute;
+    background: url(../images/light_strip.png);
+}
+
+.obra_pais{
+    width: 260px;
+    height: 270px;
+    top: 110px;
+    left: 50px;
+    position: absolute;
+    /*    background: grey;*/
+}
+
+.yellow{
+    height: 355px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    border-left: solid 1px #FFFF00;
+}
+
+#title_stripes{
+    width: 900px;
+    height: 20px;
+    top: 75px;
+    left: 50px;
+    position: absolute;
+    background: url(../images/light_strip.png);
+}
+
+#yellow{
+    width: 880px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    border-top: solid 1px #FFFF00;
+}
+
+#gall_cntnt1{
+    width: 1000px;
+    height: 125px;
+    position: relative;
+}
+
+#gall_cntnt2{
+    width: 1000px;
+    height: 120px;
+    position: relative;
+}
+
+.yellow_line{
+    width: 171px;
+    height: 170px;
+    top: 40px;
+    position: absolute;
+    border-left: solid 1px #FFFF00;
+    border-right: solid 1px #FFFF00;
+}
+
+#yellow_line2{
+    width: 775px;
+    top: 123px;
+    left: 110px;
+    position: absolute;
+    border-top: solid 1px #FFFF00;
+}
+
+
+/*---------------------TECNOLOGIA---------------------*/
+.middle_holder_tech {
+    width: 100%;
+    height: 1150px;
+    position: relative;
+    background: url(../images/prod_bg.png) repeat-x;
+}
+
+.middle_tech{
+    width: 1000px;
+    height: 1150px;
+    position: relative;
+    background: url(../images/bgmiddle.png) repeat;
+}
+
+#tech1{
+    width: 1000px;
+    height: 310px;
+    position: relative;
+}
+
+#maq1{
+    position: absolute;
+    top: 80px;
+    right: 150px;
+
+}
+
+#maq1_txt{
+    width: 370px;
+    height: 75px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
+
+#maq2_txt{
+    width: 800px;
+    height: 80px;
+    position: absolute;
+    top: 205px;
+    left: 100px;
+}
+
+#tech2{
+    width: 1000px;
+    height: 470px;
+    position: relative;
+}
+#airport_txt{
+    width: 240px;
+    height: 35px;
+    position: absolute;
+    top: 95px;
+    left: 150px;
+}
+#airport{
+    position: absolute;
+    left: 103px;
+    border: 1px solid #FEF34E;
+}
+
+#airport_sq{
+    width: 260px;
+    height: 50px;
+    position: absolute;
+    left: 140px;
+    top: 103px;
+    background: #00772D;
+    border: 1px solid #FEF34E;
+    opacity: 0.7;
+}
+
+#ensayos{
+    width: 1000px;
+    height: 410px;
+    position: relative;
+}
+
+#videos_txt{
+    width: 845px;
+    height: 40px;
+    position: absolute;
+    bottom: 75px;
+    left: 75px;
+    text-align: center;
+}
+
+#videos_holder{
+    width: 950px;
+    height: 170px;
+    position: absolute;
+    top: 100px;
+    left: 23px;
+}
+
+.video{
+    padding-left: 12px;
+}
+
+.vid_name{
+    position: absolute;
+    top: -45px;
+}
+
+/*---------------------CONTACT---------------------*/
+
+.pais_contact{
+    width: 490px;
+    height: 300px;
+    position: absolute;
+
+}
+
+.contact_info{
+    width: 360px;
+    position: absolute;
+    top: 100px;
+    left: 105px;
+}
+
+.cntc_icons{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+.contact_bg{
+    position: absolute;
+    width: 385px;
+    height: 185px;
+    top: 95px;
+    left: 95px;
+    background: #3f4240;
+}
+
+#map_holder{
+    position: absolute;
+    top: 400px;
+    left: 105px;
+}
+
+#form_holder{
+    width: 385px;
+    height: 300px;
+    position: absolute;
+    top: 400px;
+    right: 100px;
+    background: #3f4240;
+}
+
+.inp{   
+    padding: 2px;  
+    border: solid 1px #E5E5E5;  
+    outline: 0;  
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;  
+    width: 200px;  
+    background: #FFFFFF url('../images/bg_form.png') left top repeat-x;  
+}  
+
+.inp:hover{
+    border: solid 1px #69FF04; 
+}
+
+/*---------------------FOOTER---------------------*/
+
+#bottom{
+    width: 100%;
+    height: 248px;
+    position: relative;
+    background: url(../images/footer_bg.png) repeat-x;
+}
+
+#footer{
+    width: 1000px;
+    height: 248px;
+    position: relative;
+}
+
+#footer_menu{
+    width: 126px;
+    height: 167px;
+    position: absolute;
+    top: 60px;
+    left: 90px;
+    background: url(../images/footer_sign.png) no-repeat;
+}
+
+.menu_link_f{
+    width: 110px;
+    position: absolute;
+    left: 9px;
+    font-family: 'ExoDemiBold';
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0 0.1em 0.1em black;
+}
+
+#footer_menu a:hover{
+    color: yellow;
+}
+
+#road{
+    position: absolute;
+    left: 90px;
+    bottom: 0px;
+}
+
+#city{
+    position: absolute;
+    top: 11px;
+    left: 300px;
+}
+
+#bases_holder{
+    width: 760px;
+    height: 40px;
+    position: absolute;
+    top: 109px;
+    left: 320px;
+}
+
+.bridge_base{
+    width: 26px;
+    height: 39px;
+    position: absolute;
+    background: url(../images/bridge_base.png) no-repeat;
+}
+
+#by{
+    width: 180px;
+    height: 70px;
+    bottom: 5px;
+    right: 0px;
+    position: absolute;
+    padding: 0px;
+    /*    background: blue;*/
+}
+
+#txt_by{
+    font-family: 'ExoLight';
+    color: black;
+    text-align: justify;
+    font-size: 13px;
+    text-shadow: 0 0.1em 0.1em black;
+}
+
+/*____________________*/
